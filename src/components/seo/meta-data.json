@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_seo_meta_data",
+  "info": {
+    "displayName": "MetaData"
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "meta_keyword": {
+      "type": "string"
+    },
+    "meta_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "is_prevent_indexing": {
+      "type": "boolean",
+      "default": false
+    },
+    "canonical_url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popular_articles",
+  "info": {
+    "singularName": "popular-article",
+    "pluralName": "popular-articles",
+    "displayName": "Popular Article"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "view": {
+      "type": "integer",
+      "default": 0
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}
